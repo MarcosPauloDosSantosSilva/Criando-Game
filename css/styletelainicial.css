@@ -1,0 +1,39 @@
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tela-inicial {
+    width: 100%;
+    height: 500px;
+    border-bottom: 15px solid green;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background:linear-gradient(#87ceeb, #e0f6ff);
+}
+
+.imginicial {
+    position: relative;
+    bottom: -70px;
+    width: 25%;
+    left: 50%;    
+}
+
+.logoinicial {
+    position: relative;
+    width: 25%;
+    right:5%; 
+    top:-35%;   
+}
+
+.botaoiniciar{
+    position: relative;
+    width: 160px;
+    text-decoration: none;
+    border:2px solid #000;
+    text-align: center;
+    padding:10px; 
+    border-radius:10px;
+    right:100px;
+}
